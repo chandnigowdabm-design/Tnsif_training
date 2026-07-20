@@ -11,7 +11,7 @@ static String message ="hello students";
 
 	public static void main(String[] args) {
 		VariableDemo obj=new VariableDemo();
-		System.out.println(obj.price);
+		System.out.println(obj.price);      
 		obj.print();
 		System.out.println(message);
 		// TODO Auto-generated method stub
