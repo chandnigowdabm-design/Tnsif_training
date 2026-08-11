@@ -19,6 +19,7 @@ class Gpay extends payment1
 	{
 		super.process();
 		process();
+	
 	}
 }
 
