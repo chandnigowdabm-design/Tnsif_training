@@ -1,0 +1,26 @@
+package org.tnsif.ace.c2tc.methodoverriding_super_this;
+class Notification
+{
+	 String message=" Default Notification";
+}
+class PushNotification extends Notification
+{
+	String message="Push Notification";
+	
+	void showNotification()
+	{
+		System.out.println("Child message :" +message);
+		System.out.println("Parent message : "+super.message);
+	}
+}
+public class SuperWithVariable {
+
+	public static void main(String[] args) {
+		 PushNotification obj=new  PushNotification();
+		 obj.showNotification();
+
+	}
+
+}
+
+
