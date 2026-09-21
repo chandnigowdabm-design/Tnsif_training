@@ -1,0 +1,41 @@
+package org.tnsif.acc.c2tc.HierachicalInheritanceDemo;
+class Employee
+{
+	void company()
+	{
+		System.out.println("Company : TNSIF");
+	}
+	void print()
+	{
+		System.out.println("hello");
+	}
+}
+class Developer extends Employee
+{
+	void role()
+	{
+		System.out.println("Role : Software Developer");
+	}
+}
+class Tester extends Employee
+{
+	void role()
+	{
+		System.out.println("Role : QA Tester");
+	}
+}
+
+public class HierachicalInheritanceDemo {
+
+	public static void main(String[] args) {
+		Developer dev=new Developer();
+		dev.company();
+		dev.role();
+		
+		Tester test=new Tester();
+		test.company();
+		test.role();
+		
+	}
+
+}
