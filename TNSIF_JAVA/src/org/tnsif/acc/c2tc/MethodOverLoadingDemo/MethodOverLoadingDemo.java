@@ -1,4 +1,4 @@
-package tnsif.acc.c2tc.MethodOverLoadingDemo;
+package org.tnsif.acc.c2tc.MethodOverLoadingDemo;
 class Calculator
 {
 	int add(int a, int b)
